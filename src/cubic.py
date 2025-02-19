@@ -18,14 +18,14 @@ def find_cubic_roots(a, b, c, d):
     if abs(a) < epsilon:
         # CHALLENGE: student must complete the implementation.
         # HINT: goal = 1 line of code
-        raise NotImplementedError()
+        return find_quadratic_roots(b,c,d)
 
     if a < 0:
         # Here we know the leading coefficients is negative,
         #   so we want to return the roots of -P(x) = -ax^3 - bx^2 - cx -d
         # CHALLENGE: student must complete the implementation.
         # HINT: goal = 1 line of code
-        raise NotImplementedError()
+        return find_cubic_roots(-a,-b,-c,-d)
 
     # compute a function, P, which can be called with a value of x, e.g., P(x).
     # P(x) returns the value of the cubic polynomial at x.
