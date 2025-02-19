@@ -18,7 +18,7 @@ def find_cubic_roots(a, b, c, d):
     if abs(a) < epsilon:
         # CHALLENGE: student must complete the implementation.
         # HINT: goal = 1 line of code
-        return find_quadratic_roots(b,c,d)
+        return find_quadratic_roots(b, c, d)
 
     if a < 0:
         # Here we know the leading coefficients is negative,
@@ -37,7 +37,7 @@ def find_cubic_roots(a, b, c, d):
             # a root at 0, so return 0.0
             # CHALLENGE: student must complete the implementation.
             # HINT: goal = 1 line of code
-            return [0]
+            return 0.0
 
         elif d > 0:
             # P(0) = d, so P(-infinity) < 0 and P(infinity) > 0.
@@ -83,7 +83,7 @@ def find_cubic_roots(a, b, c, d):
         #   in Section 7: Cubic: degree=3.
         # CHALLENGE: student must complete the implementation.
         # HINT: goal = 1 line of code
-        c + r*A
+        c + r*B
 
     )
 
