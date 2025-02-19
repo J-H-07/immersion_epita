@@ -37,7 +37,7 @@ def find_cubic_roots(a, b, c, d):
             # a root at 0, so return 0.0
             # CHALLENGE: student must complete the implementation.
             # HINT: goal = 1 line of code
-            raise NotImplementedError()
+            return [0]
 
         elif d > 0:
             # P(0) = d, so P(-infinity) < 0 and P(infinity) > 0.
@@ -52,7 +52,7 @@ def find_cubic_roots(a, b, c, d):
             # Thus, we perform a search in the rightward direction to find a root.
             # CHALLENGE: student must complete the implementation.
             # HINT: goal = 1 line of code
-            raise NotImplementedError()
+            return search_root_right(0, 1, P, epsilon)
 
     r = find_one_root()
 
@@ -63,7 +63,7 @@ def find_cubic_roots(a, b, c, d):
         #   in Section 7: Cubic: degree=3.
         # CHALLENGE: student must complete the implementation.
         # HINT: goal = 1 line of code
-        raise NotImplementedError()
+        a
 
     )
     B = (
@@ -73,7 +73,7 @@ def find_cubic_roots(a, b, c, d):
         #   in Section 7: Cubic: degree=3.
         # CHALLENGE: student must complete the implementation.
         # HINT: goal = 1 line of code
-        raise NotImplementedError()
+        b + r*A
 
     )
     C = (
@@ -83,7 +83,7 @@ def find_cubic_roots(a, b, c, d):
         #   in Section 7: Cubic: degree=3.
         # CHALLENGE: student must complete the implementation.
         # HINT: goal = 1 line of code
-        raise NotImplementedError()
+        c + r*A
 
     )
 
